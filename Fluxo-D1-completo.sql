@@ -1,9 +1,13 @@
 PRAGMA defer_foreign_keys=TRUE;
+
+/* Aqui inicializa a tabela para as migrações feitas no fluxo. */
 CREATE TABLE _migrations (
       id INTEGER PRIMARY KEY,
       name TEXT NOT NULL,
       applied_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
+
+/* Aqui inicializa a tabela para o controle de logins da aplicaçãao. */
 CREATE TABLE `auth_attempts` (
 	`key_hash` text PRIMARY KEY NOT NULL,
 	`scope` text NOT NULL,
@@ -12,6 +16,10 @@ CREATE TABLE `auth_attempts` (
 	`blocked_until` text,
 	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
+
+/*Essa tabela serve para armazenar as sessões de login dos usuários, incluindo informações sobre o dispositivo, plataforma e versão do aplicativo.
+ Ela também mantém o estado da sessão, como data de expiração e revogação, além de registrar a última vez que a sessão foi vista.
+ A tabela possui uma chave estrangeira referenciando a tabela de usuários para garantir a integridade dos dados.*/
 CREATE TABLE `sessions` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -27,6 +35,9 @@ CREATE TABLE `sessions` (
 	`created_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena informações adicionais sobre os perfis dos usuários, como a URL do avatar e as preferências do usuário.
+ Ela possui uma chave estrangeira referenciando a tabela de usuários para garantir a integridade dos dados.*/
 CREATE TABLE `user_profiles` (
 	`user_id` text PRIMARY KEY NOT NULL,
 	`avatar_url` text,
@@ -34,6 +45,9 @@ CREATE TABLE `user_profiles` (
 	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena informações sobre os usuários, incluindo email, nome de exibição e informações de senha.
+ Ela possui uma chave primária na coluna "id" e garante que o email seja único para cada usuário.*/
 CREATE TABLE `users` (
 	`id` text PRIMARY KEY NOT NULL,
 	`email` text NOT NULL,
@@ -44,6 +58,9 @@ CREATE TABLE `users` (
 	`created_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
+
+/*Essa tabela armazena informações sobre as contas financeiras dos usuários, incluindo nome, instituição, tipo de conta, moeda e saldo inicial.
+ Ela possui uma chave primária na coluna "id" e uma chave estrangeira referenciando a tabela de usuários para garantir a integridade dos dados.*/
 CREATE TABLE `accounts` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -64,6 +81,9 @@ CREATE TABLE `accounts` (
 	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena as informações dos cartões dos usuários, incluindo nome, tipo, marca, limite, datas de fechamento e vencimento, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários e contas para garantir a integridade dos dados, e integração entre as contas e os cartões.*/
 CREATE TABLE `cards` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -92,6 +112,9 @@ CREATE TABLE `cards` (
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`payment_account_id`) REFERENCES `accounts`(`id`) ON UPDATE no action ON DELETE restrict
 );
+
+/*Essa tabela armazena informações sobre as categorias de despesas e receitas dos usuários, incluindo nome, tipo, cor, ícone e outras propriedades.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários e categorias para garantir a integridade dos dados e permitir a criação de categorias hierárquicas.*/
 CREATE TABLE `categories` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -109,6 +132,9 @@ CREATE TABLE `categories` (
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`parent_id`) REFERENCES `categories`(`id`) ON UPDATE no action ON DELETE set null
 );
+
+/*Aqui é uma ideia de vincular viagens a certos períodos de gastos, para o controle específico dos gastos na viagem além de manter o controle de gastos gerais. 
+A tabela de viagens possui uma chave primária na coluna "id" e uma chave estrangeira referenciando a tabela de usuários para garantir a integridade dos dados.*/
 CREATE TABLE `trips` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -121,6 +147,9 @@ CREATE TABLE `trips` (
 	`updated_at` text DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena informações sobre os planos de parcelamento dos usuários, incluindo descrição, valor total, número de parcelas, datas de compra e competência, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários, cartões e categorias para garantir a integridade dos dados.*/
 CREATE TABLE `installment_plans` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -140,6 +169,9 @@ CREATE TABLE `installment_plans` (
 	FOREIGN KEY (`card_id`) REFERENCES `cards`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`) ON UPDATE no action ON DELETE set null
 );
+
+/*Essa tabela armazena informações sobre as faturas dos cartões dos usuários, incluindo competência, datas de fechamento e vencimento, status e datas de pagamento, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários e cartões para garantir a integridade dos dados.*/
 CREATE TABLE `invoices` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -155,6 +187,9 @@ CREATE TABLE `invoices` (
 	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`card_id`) REFERENCES `cards`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena informações sobre os lançamentos contábeis dos usuários, incluindo o valor, a data de efetivação, a competência e o estado do lançamento, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários, transações, contas e cartões para garantir a integridade dos dados.*/
 CREATE TABLE `ledger_entries` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -171,6 +206,9 @@ CREATE TABLE `ledger_entries` (
 	FOREIGN KEY (`account_id`) REFERENCES `accounts`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`card_id`) REFERENCES `cards`(`id`) ON UPDATE no action ON DELETE cascade
 );
+
+/*Essa tabela armazena informações sobre as transações financeiras dos usuários, incluindo o tipo, o estado, a origem, a descrição, a categoria, o valor e a data de ocorrência da transação, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários, categorias, contas e cartões para garantir a integridade dos dados.*/
 CREATE TABLE `transactions` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
@@ -209,6 +247,9 @@ CREATE TABLE `transactions` (
 	FOREIGN KEY (`installment_plan_id`) REFERENCES `installment_plans`(`id`) ON UPDATE no action ON DELETE cascade,
 	FOREIGN KEY (`invoice_id`) REFERENCES `invoices`(`id`) ON UPDATE no action ON DELETE set null
 );
+
+/*Essa tabela armazena informações sobre as execuções de recorrências, incluindo o usuário, a recorrência, a competência, o resultado, a data agendada e o valor da execução, entre outros.
+ Ela possui uma chave primária na coluna "id" e chaves estrangeiras referenciando as tabelas de usuários, recorrências e transações para garantir a integridade dos dados.*/
 CREATE TABLE `recurrence_runs` (
 	`id` text PRIMARY KEY NOT NULL,
 	`user_id` text NOT NULL,
