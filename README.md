@@ -18,7 +18,7 @@ sql_aulas/
 │   └── README.md
 │
 ├── atividades/
-│   ├── atividade-01/
+│   ├── sql_triggers/
 │   ├── atividade-02/
 │   ├── atividade-03/
 │   └── ...
