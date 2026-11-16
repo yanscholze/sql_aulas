@@ -19,7 +19,7 @@ sql_aulas/
 │
 ├── atividades/
 │   ├── sql_triggers/
-│   ├── atividade-02/
+│   ├── lab_maker/
 │   ├── atividade-03/
 │   └── ...
 │

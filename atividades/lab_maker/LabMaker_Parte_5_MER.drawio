@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex" version="24.7.17" type="device">
+  <diagram id="labmaker-mer-parte5" name="Parte 5 - MER LabMaker">
+    <mxGraphModel dx="1600" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="LABMAKER" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=none;fontSize=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="38" width="1500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Parte 5 — Modelo Entidade–Relacionamento conceitual (notação de Chen)" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="50" y="89" width="1500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="estudante" value="ESTUDANTE" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rounded=0;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="365" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="emprestimo" value="EMPRESTIMO" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rounded=0;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="365" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kit" value="KIT" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rounded=0;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="365" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" value="MONITOR" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rounded=0;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="780" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="realiza" value="REALIZA" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rhombus;perimeter=rhombusPerimeter;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="355" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="contem" value="CONTÉM" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rhombus;perimeter=rhombusPerimeter;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="355" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="registra" value="REGISTRA" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;rhombus;perimeter=rhombusPerimeter;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="560" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="matricula" value="matricula" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="25" y="190" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nome_estudante" value="nome" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="175" y="155" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="curso" value="curso" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="telefones" value="telefones" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;shape=doubleEllipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="135" y="550" width="170" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="num_emp" value="num_emp" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="205" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="data_emp" value="data_emp" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="720" y="155" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="prev_devolucao" value="prev_devolucao" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="890" y="205" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cod_kit" value="cod_kit" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="205" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="descricao_kit" value="descricao_kit" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="205" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qtd" value="qtd" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="575" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="id_monitor" value="id_monitor" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="930" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nome_monitor" value="nome_monitor" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;ellipse;perimeter=ellipsePerimeter;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="880" y="930" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="estudante_realiza" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="estudante" target="realiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="realiza_emprestimo" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="realiza" target="emprestimo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emprestimo_contem" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="emprestimo" target="contem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="contem_kit" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="contem" target="kit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emprestimo_registra" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="emprestimo" target="registra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="registra_monitor" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="registra" target="monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="est_matricula" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.18;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="estudante" target="matricula">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="est_nome" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="estudante" target="nome_estudante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="est_curso" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.82;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="estudante" target="curso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="est_telefones" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.36;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="estudante" target="telefones">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_num" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.18;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="emprestimo" target="num_emp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_data" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="emprestimo" target="data_emp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_prev" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.82;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="emprestimo" target="prev_devolucao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kit_cod" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kit" target="cod_kit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kit_desc" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kit" target="descricao_kit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="contem_qtd" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="contem" target="qtd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor_id" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="monitor" target="id_monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor_nome" style="edgeStyle=none;rounded=0;html=1;endArrow=none;startArrow=none;strokeWidth=1.8;strokeColor=#202020;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="monitor" target="nome_monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card_est" value="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="359" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="card_realiza_emp" value="N" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="359" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="card_emp_contem" value="N" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="947" y="359" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="card_contem_kit" value="N" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="359" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="card_registra_emp" value="N" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="814" y="475" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="card_monitor" value="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=#FFFFFF;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="814" y="725" width="32" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Identificador: atributo sublinhado   •   Atributo multivalorado: elipse dupla   •   1:N = um para muitos   •   N:N = muitos para muitos" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontColor=#202020;strokeColor=#202020;fillColor=#FFFFFF;strokeWidth=2;text;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1035" width="1480" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
