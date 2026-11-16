@@ -1,0 +1,419 @@
+{
+  "status": "failed",
+  "createdAt": "2026-11-16T11:54:54.666Z",
+  "baseURL": "http://127.0.0.1:4174",
+  "headed": true,
+  "method": "Same stable real-app viewport before and after replacing .animated-value with its final live textNode; reduced motion, no hover, exact RGBA comparison",
+  "limitations": "Final number geometry only; does not measure count performance or intermediate number widths",
+  "cases": [
+    {
+      "name": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 669.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 1080.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1491.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 1073.5,
+          "y": 309.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-light-difference.png",
+      "differentPixels": 4321,
+      "maximumChannelError": 114,
+      "meanAbsoluteRGBA": 0.05655068479938272,
+      "passed": false
+    },
+    {
+      "name": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 669.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 1080.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1491.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 1073.5,
+          "y": 309.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1920x1080-dark-difference.png",
+      "differentPixels": 4322,
+      "maximumChannelError": 115,
+      "meanAbsoluteRGBA": 0.05653356481481482,
+      "passed": false
+    },
+    {
+      "name": "1440x900-light",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 549.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 840.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1131.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 833.5,
+          "y": 320.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-light-difference.png",
+      "differentPixels": 4349,
+      "maximumChannelError": 114,
+      "meanAbsoluteRGBA": 0.0905798611111111,
+      "passed": false
+    },
+    {
+      "name": "1440x900-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 549.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 840.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1131.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 833.5,
+          "y": 320.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/1440x900-dark-difference.png",
+      "differentPixels": 4333,
+      "maximumChannelError": 115,
+      "meanAbsoluteRGBA": 0.09064197530864197,
+      "passed": false
+    },
+    {
+      "name": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 32,
+          "y": 665.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 32,
+          "y": 804.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 32,
+          "y": 943.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 32,
+          "y": 1082.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 35,
+          "y": 354.96875,
+          "width": 253.578125,
+          "height": 46.1875,
+          "font": "",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-2.1px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-light-difference.png",
+      "differentPixels": 0,
+      "maximumChannelError": 0,
+      "meanAbsoluteRGBA": 0,
+      "passed": true
+    },
+    {
+      "name": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 32,
+          "y": 665.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 32,
+          "y": 804.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 32,
+          "y": 943.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 32,
+          "y": 1082.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px"
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 35,
+          "y": 354.96875,
+          "width": 253.578125,
+          "height": 46.1875,
+          "font": "",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-2.1px"
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/390x844-dark-difference.png",
+      "differentPixels": 0,
+      "maximumChannelError": 0,
+      "meanAbsoluteRGBA": 0,
+      "passed": true
+    }
+  ],
+  "browser": "157.0.8103.38",
+  "summary": {
+    "cases": 6,
+    "passed": 2,
+    "failed": 4,
+    "differentPixels": 17325
+  }
+}

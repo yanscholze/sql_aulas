@@ -1,0 +1,1722 @@
+{
+  "status": "failed",
+  "createdAt": "2026-11-16T11:57:11.946Z",
+  "baseURL": "http://127.0.0.1:4174",
+  "headed": true,
+  "containOverride": "style",
+  "method": "Same stable real-app viewport before and after replacing .animated-value with its final live textNode; reduced motion, no hover, exact RGBA comparison",
+  "limitations": "Final number geometry only; does not measure count performance or intermediate number widths",
+  "cases": [
+    {
+      "name": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 621.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 669.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 826.703125,
+            "bottom": 210.390625,
+            "left": 669.75
+          },
+          "parentRect": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1032.5,
+            "bottom": 211.390625,
+            "left": 669.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 1080.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1254.59375,
+            "bottom": 210.390625,
+            "left": 1080.5
+          },
+          "parentRect": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1443.25,
+            "bottom": 211.390625,
+            "left": 1080.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1491.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1648.203125,
+            "bottom": 210.390625,
+            "left": 1491.25
+          },
+          "parentRect": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1854,
+            "bottom": 211.390625,
+            "left": 1491.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 1073.5,
+          "y": 309.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px",
+          "liveTextRange": {
+            "x": 1073.5,
+            "y": 307.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 307.578125,
+            "right": 1278.765625,
+            "bottom": 348.578125,
+            "left": 1073.5
+          },
+          "parentRect": {
+            "x": 1073.5,
+            "y": 309.578125,
+            "width": 366.25,
+            "height": 37.390625,
+            "top": 309.578125,
+            "right": 1439.75,
+            "bottom": 346.96875,
+            "left": 1073.5
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 621.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 826.703125,
+            "bottom": 210.390625,
+            "left": 669.75
+          },
+          "parentRect": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1032.5,
+            "bottom": 211.390625,
+            "left": 669.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1254.59375,
+            "bottom": 210.390625,
+            "left": 1080.5
+          },
+          "parentRect": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1443.25,
+            "bottom": 211.390625,
+            "left": 1080.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1648.203125,
+            "bottom": 210.390625,
+            "left": 1491.25
+          },
+          "parentRect": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1854,
+            "bottom": 211.390625,
+            "left": 1491.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 1073.5,
+            "y": 307.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 307.578125,
+            "right": 1278.765625,
+            "bottom": 348.578125,
+            "left": 1073.5
+          },
+          "parentRect": {
+            "x": 1073.5,
+            "y": 309.578125,
+            "width": 366.25,
+            "height": 37.390625,
+            "top": 309.578125,
+            "right": 1439.75,
+            "bottom": 346.96875,
+            "left": 1073.5
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-light-difference.png",
+      "differentPixels": 2,
+      "maximumChannelError": 1,
+      "meanAbsoluteRGBA": 4.822530864197531e-7,
+      "passed": false
+    },
+    {
+      "name": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 621.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 669.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 826.703125,
+            "bottom": 210.390625,
+            "left": 669.75
+          },
+          "parentRect": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1032.5,
+            "bottom": 211.390625,
+            "left": 669.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 1080.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1254.59375,
+            "bottom": 210.390625,
+            "left": 1080.5
+          },
+          "parentRect": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1443.25,
+            "bottom": 211.390625,
+            "left": 1080.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1491.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1648.203125,
+            "bottom": 210.390625,
+            "left": 1491.25
+          },
+          "parentRect": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1854,
+            "bottom": 211.390625,
+            "left": 1491.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 1073.5,
+          "y": 309.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px",
+          "liveTextRange": {
+            "x": 1073.5,
+            "y": 307.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 307.578125,
+            "right": 1278.765625,
+            "bottom": 348.578125,
+            "left": 1073.5
+          },
+          "parentRect": {
+            "x": 1073.5,
+            "y": 309.578125,
+            "width": 366.25,
+            "height": 37.390625,
+            "top": 309.578125,
+            "right": 1439.75,
+            "bottom": 346.96875,
+            "left": 1073.5
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 621.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 826.703125,
+            "bottom": 210.390625,
+            "left": 669.75
+          },
+          "parentRect": {
+            "x": 669.75,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1032.5,
+            "bottom": 211.390625,
+            "left": 669.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1254.59375,
+            "bottom": 210.390625,
+            "left": 1080.5
+          },
+          "parentRect": {
+            "x": 1080.5,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1443.25,
+            "bottom": 211.390625,
+            "left": 1080.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1648.203125,
+            "bottom": 210.390625,
+            "left": 1491.25
+          },
+          "parentRect": {
+            "x": 1491.25,
+            "y": 176.390625,
+            "width": 362.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1854,
+            "bottom": 211.390625,
+            "left": 1491.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 1073.5,
+            "y": 307.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 307.578125,
+            "right": 1278.765625,
+            "bottom": 348.578125,
+            "left": 1073.5
+          },
+          "parentRect": {
+            "x": 1073.5,
+            "y": 309.578125,
+            "width": 366.25,
+            "height": 37.390625,
+            "top": 309.578125,
+            "right": 1439.75,
+            "bottom": 346.96875,
+            "left": 1073.5
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1920x1080-dark-difference.png",
+      "differentPixels": 2,
+      "maximumChannelError": 1,
+      "meanAbsoluteRGBA": 4.822530864197531e-7,
+      "passed": false
+    },
+    {
+      "name": "1440x900-light",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 501.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 549.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 706.703125,
+            "bottom": 210.390625,
+            "left": 549.75
+          },
+          "parentRect": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 792.5,
+            "bottom": 211.390625,
+            "left": 549.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 840.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1014.59375,
+            "bottom": 210.390625,
+            "left": 840.5
+          },
+          "parentRect": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1083.25,
+            "bottom": 211.390625,
+            "left": 840.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1131.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1288.203125,
+            "bottom": 210.390625,
+            "left": 1131.25
+          },
+          "parentRect": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1374,
+            "bottom": 211.390625,
+            "left": 1131.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 833.5,
+          "y": 320.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px",
+          "liveTextRange": {
+            "x": 833.5,
+            "y": 318.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 318.578125,
+            "right": 1038.765625,
+            "bottom": 359.578125,
+            "left": 833.5
+          },
+          "parentRect": {
+            "x": 833.5,
+            "y": 320.578125,
+            "width": 246.25,
+            "height": 37.390625,
+            "top": 320.578125,
+            "right": 1079.75,
+            "bottom": 357.96875,
+            "left": 833.5
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 501.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 706.703125,
+            "bottom": 210.390625,
+            "left": 549.75
+          },
+          "parentRect": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 792.5,
+            "bottom": 211.390625,
+            "left": 549.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1014.59375,
+            "bottom": 210.390625,
+            "left": 840.5
+          },
+          "parentRect": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1083.25,
+            "bottom": 211.390625,
+            "left": 840.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1288.203125,
+            "bottom": 210.390625,
+            "left": 1131.25
+          },
+          "parentRect": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1374,
+            "bottom": 211.390625,
+            "left": 1131.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 833.5,
+            "y": 318.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 318.578125,
+            "right": 1038.765625,
+            "bottom": 359.578125,
+            "left": 833.5
+          },
+          "parentRect": {
+            "x": 833.5,
+            "y": 320.578125,
+            "width": 246.25,
+            "height": 37.390625,
+            "top": 320.578125,
+            "right": 1079.75,
+            "bottom": 357.96875,
+            "left": 833.5
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-light-difference.png",
+      "differentPixels": 28,
+      "maximumChannelError": 1,
+      "meanAbsoluteRGBA": 0.000006944444444444444,
+      "passed": false
+    },
+    {
+      "name": "1440x900-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 259,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 501.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 549.75,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 706.703125,
+            "bottom": 210.390625,
+            "left": 549.75
+          },
+          "parentRect": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 792.5,
+            "bottom": 211.390625,
+            "left": 549.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 840.5,
+          "y": 176.390625,
+          "width": 174.09375,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1014.59375,
+            "bottom": 210.390625,
+            "left": 840.5
+          },
+          "parentRect": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1083.25,
+            "bottom": 211.390625,
+            "left": 840.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 1131.25,
+          "y": 176.390625,
+          "width": 156.953125,
+          "height": 35,
+          "font": "",
+          "lineHeight": "35px",
+          "letterSpacing": "-0.98px",
+          "liveTextRange": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1288.203125,
+            "bottom": 210.390625,
+            "left": 1131.25
+          },
+          "parentRect": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1374,
+            "bottom": 211.390625,
+            "left": 1131.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 833.5,
+          "y": 320.578125,
+          "width": 205.265625,
+          "height": 37.390625,
+          "font": "",
+          "lineHeight": "37.4px",
+          "letterSpacing": "-1.7px",
+          "liveTextRange": {
+            "x": 833.5,
+            "y": 318.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 318.578125,
+            "right": 1038.765625,
+            "bottom": 359.578125,
+            "left": 833.5
+          },
+          "parentRect": {
+            "x": 833.5,
+            "y": 320.578125,
+            "width": 246.25,
+            "height": 37.390625,
+            "top": 320.578125,
+            "right": 1079.75,
+            "bottom": 357.96875,
+            "left": 833.5
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 433.09375,
+            "bottom": 210.390625,
+            "left": 259
+          },
+          "parentRect": {
+            "x": 259,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 501.75,
+            "bottom": 211.390625,
+            "left": 259
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 706.703125,
+            "bottom": 210.390625,
+            "left": 549.75
+          },
+          "parentRect": {
+            "x": 549.75,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 792.5,
+            "bottom": 211.390625,
+            "left": 549.75
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 174.09375,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1014.59375,
+            "bottom": 210.390625,
+            "left": 840.5
+          },
+          "parentRect": {
+            "x": 840.5,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1083.25,
+            "bottom": 211.390625,
+            "left": 840.5
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 156.953125,
+            "height": 34,
+            "top": 176.390625,
+            "right": 1288.203125,
+            "bottom": 210.390625,
+            "left": 1131.25
+          },
+          "parentRect": {
+            "x": 1131.25,
+            "y": 176.390625,
+            "width": 242.75,
+            "height": 35,
+            "top": 176.390625,
+            "right": 1374,
+            "bottom": 211.390625,
+            "left": 1131.25
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 833.5,
+            "y": 318.578125,
+            "width": 205.265625,
+            "height": 41,
+            "top": 318.578125,
+            "right": 1038.765625,
+            "bottom": 359.578125,
+            "left": 833.5
+          },
+          "parentRect": {
+            "x": 833.5,
+            "y": 320.578125,
+            "width": 246.25,
+            "height": 37.390625,
+            "top": 320.578125,
+            "right": 1079.75,
+            "bottom": 357.96875,
+            "left": 833.5
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/1440x900-dark-difference.png",
+      "differentPixels": 13,
+      "maximumChannelError": 1,
+      "meanAbsoluteRGBA": 0.000002507716049382716,
+      "passed": false
+    },
+    {
+      "name": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 32,
+          "y": 665.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 665.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 665.75,
+            "right": 218.53125,
+            "bottom": 701.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 665.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 665.75,
+            "right": 343,
+            "bottom": 703.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 32,
+          "y": 804.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 804.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 804.75,
+            "right": 200.171875,
+            "bottom": 840.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 804.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 804.75,
+            "right": 343,
+            "bottom": 842.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 32,
+          "y": 943.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 943.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 943.75,
+            "right": 218.53125,
+            "bottom": 979.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 943.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 943.75,
+            "right": 343,
+            "bottom": 981.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 32,
+          "y": 1082.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 1082.75,
+            "right": 200.171875,
+            "bottom": 1118.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 1082.75,
+            "right": 343,
+            "bottom": 1120.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 35,
+          "y": 354.96875,
+          "width": 253.578125,
+          "height": 46.1875,
+          "font": "",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-2.1px",
+          "liveTextRange": {
+            "x": 35,
+            "y": 351.96875,
+            "width": 253.578125,
+            "height": 51,
+            "top": 351.96875,
+            "right": 288.578125,
+            "bottom": 402.96875,
+            "left": 35
+          },
+          "parentRect": {
+            "x": 35,
+            "y": 354.96875,
+            "width": 305,
+            "height": 46.1875,
+            "top": 354.96875,
+            "right": 340,
+            "bottom": 401.15625,
+            "left": 35
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 32,
+            "y": 665.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 665.75,
+            "right": 218.53125,
+            "bottom": 701.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 665.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 665.75,
+            "right": 343,
+            "bottom": 703.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 32,
+            "y": 804.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 804.75,
+            "right": 200.171875,
+            "bottom": 840.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 804.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 804.75,
+            "right": 343,
+            "bottom": 842.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 32,
+            "y": 943.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 943.75,
+            "right": 218.53125,
+            "bottom": 979.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 943.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 943.75,
+            "right": 343,
+            "bottom": 981.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 1082.75,
+            "right": 200.171875,
+            "bottom": 1118.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 1082.75,
+            "right": 343,
+            "bottom": 1120.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 35,
+            "y": 351.96875,
+            "width": 253.578125,
+            "height": 51,
+            "top": 351.96875,
+            "right": 288.578125,
+            "bottom": 402.96875,
+            "left": 35
+          },
+          "parentRect": {
+            "x": 35,
+            "y": 354.96875,
+            "width": 305,
+            "height": 46.1875,
+            "top": 354.96875,
+            "right": 340,
+            "bottom": 401.15625,
+            "left": 35
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-light-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-light-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-light-difference.png",
+      "differentPixels": 0,
+      "maximumChannelError": 0,
+      "meanAbsoluteRGBA": 0,
+      "passed": true
+    },
+    {
+      "name": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "values": [
+        {
+          "final": "R$ 54.413,90",
+          "x": 32,
+          "y": 665.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 665.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 665.75,
+            "right": 218.53125,
+            "bottom": 701.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 665.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 665.75,
+            "right": 343,
+            "bottom": 703.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "x": 32,
+          "y": 804.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 804.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 804.75,
+            "right": 200.171875,
+            "bottom": 840.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 804.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 804.75,
+            "right": 343,
+            "bottom": 842.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "x": 32,
+          "y": 943.75,
+          "width": 186.53125,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 943.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 943.75,
+            "right": 218.53125,
+            "bottom": 979.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 943.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 943.75,
+            "right": 343,
+            "bottom": 981.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "x": 32,
+          "y": 1082.75,
+          "width": 168.171875,
+          "height": 37.5,
+          "font": "",
+          "lineHeight": "37.5px",
+          "letterSpacing": "-1.05px",
+          "liveTextRange": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 1082.75,
+            "right": 200.171875,
+            "bottom": 1118.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 1082.75,
+            "right": 343,
+            "bottom": 1120.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "x": 35,
+          "y": 354.96875,
+          "width": 253.578125,
+          "height": 46.1875,
+          "font": "",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-2.1px",
+          "liveTextRange": {
+            "x": 35,
+            "y": 351.96875,
+            "width": 253.578125,
+            "height": 51,
+            "top": 351.96875,
+            "right": 288.578125,
+            "bottom": 402.96875,
+            "left": 35
+          },
+          "parentRect": {
+            "x": 35,
+            "y": 354.96875,
+            "width": 305,
+            "height": 46.1875,
+            "top": 354.96875,
+            "right": 340,
+            "bottom": 401.15625,
+            "left": 35
+          }
+        }
+      ],
+      "originalValues": [
+        {
+          "final": "R$ 54.413,90",
+          "textRange": {
+            "x": 32,
+            "y": 665.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 665.75,
+            "right": 218.53125,
+            "bottom": 701.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 665.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 665.75,
+            "right": 343,
+            "bottom": 703.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 1.179,50",
+          "textRange": {
+            "x": 32,
+            "y": 804.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 804.75,
+            "right": 200.171875,
+            "bottom": 840.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 804.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 804.75,
+            "right": 343,
+            "bottom": 842.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 91.746,20",
+          "textRange": {
+            "x": 32,
+            "y": 943.75,
+            "width": 186.53125,
+            "height": 36,
+            "top": 943.75,
+            "right": 218.53125,
+            "bottom": 979.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 943.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 943.75,
+            "right": 343,
+            "bottom": 981.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 4.877,60",
+          "textRange": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 168.171875,
+            "height": 36,
+            "top": 1082.75,
+            "right": 200.171875,
+            "bottom": 1118.75,
+            "left": 32
+          },
+          "parentRect": {
+            "x": 32,
+            "y": 1082.75,
+            "width": 311,
+            "height": 37.5,
+            "top": 1082.75,
+            "right": 343,
+            "bottom": 1120.25,
+            "left": 32
+          }
+        },
+        {
+          "final": "R$ 53.234,40",
+          "textRange": {
+            "x": 35,
+            "y": 351.96875,
+            "width": 253.578125,
+            "height": 51,
+            "top": 351.96875,
+            "right": 288.578125,
+            "bottom": 402.96875,
+            "left": 35
+          },
+          "parentRect": {
+            "x": 35,
+            "y": 354.96875,
+            "width": 305,
+            "height": 46.1875,
+            "top": 354.96875,
+            "right": 340,
+            "bottom": 401.15625,
+            "left": 35
+          }
+        }
+      ],
+      "current": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-dark-reserved.png",
+      "original": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-dark-original-text.png",
+      "difference": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-16-values-visual/contain-style/390x844-dark-difference.png",
+      "differentPixels": 0,
+      "maximumChannelError": 0,
+      "meanAbsoluteRGBA": 0,
+      "passed": true
+    }
+  ],
+  "browser": "157.0.8103.38",
+  "summary": {
+    "cases": 6,
+    "passed": 2,
+    "failed": 4,
+    "differentPixels": 45
+  }
+}

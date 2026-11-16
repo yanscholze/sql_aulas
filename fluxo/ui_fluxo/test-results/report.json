@@ -1,0 +1,706 @@
+{
+  "config": {
+    "argv": [
+      "/usr/bin/node-22",
+      "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/playwright.config.ts",
+    "rootDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/tests/e2e",
+        "snapshotDir": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "reducedMotion": "reduce",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview",
+      "url": "http://127.0.0.1:4174",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "interface.spec.ts",
+      "file": "interface.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "todas as áreas abrem sem erros e permanecem dentro da largura da tela",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17008,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:58:57.638Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-1e00275dfb68d864ca65",
+          "file": "interface.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "lançamento pode ser criado, editado, filtrado e permanece após recarregar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1704,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:14.760Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-79035a21767ab9692d7e",
+          "file": "interface.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "fatura, importação e conversa usam somente a demonstração",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2993,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:16.475Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-bcb10c8a48249de7e76d",
+          "file": "interface.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "desktop e mobile não apresentam violações sérias de acessibilidade",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:19.486Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-e42af11f4b7bd2724dd3",
+          "file": "interface.spec.ts",
+          "line": 134,
+          "column": 1
+        },
+        {
+          "title": "seis resoluções, temas e navegação mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2502,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:22.254Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-ab12c80b00af4abffc09",
+          "file": "interface.spec.ts",
+          "line": 154,
+          "column": 1
+        },
+        {
+          "title": "composição desktop usa a largura de 16:9 sem empurrar os blocos principais para baixo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 813,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:24.774Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "07743df4f35bb054ea2e-d9de7d88a72d166c8431",
+          "file": "interface.spec.ts",
+          "line": 194,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "motion.spec.ts",
+      "file": "motion.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "movimento reduzido não cria bolhas ou atrasos de conteúdo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 657,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:45.984Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-reduzido--eb62b-lhas-ou-atrasos-de-conteúdo/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-82f33730f6c4a992644d",
+          "file": "motion.spec.ts",
+          "line": 419,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "movimento expressivo",
+          "file": "motion.spec.ts",
+          "line": 89,
+          "column": 6,
+          "specs": [
+            {
+              "title": "a transição repete sem perder filtros e cancela ao navegar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6813,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:26.159Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-expressiv-9d76c-iltros-e-cancela-ao-navegar/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "472f259022e25a651642-72ed906717423fbb5ee0",
+              "file": "motion.spec.ts",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "a explosão acompanha o clique, o centro pelo teclado e a gaveta mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5162,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:33.133Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-expressiv-6c3e8-o-teclado-e-a-gaveta-mobile/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "472f259022e25a651642-490512bda915045c542a",
+              "file": "motion.spec.ts",
+              "line": 167,
+              "column": 3
+            },
+            {
+              "title": "cobre antes de trocar a página, espera o conteúdo e usa azul profundo no escuro",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3089,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:38.314Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "quadros-da-transicao",
+                          "contentType": "application/json",
+                          "body": "W3sidGltZSI6MTcuMDk5OTk5OTk0MDM5NTM2LCJwaGFzZSI6ImNvdmVyaW5nIiwicGF0aCI6Ii9wYWluZWwiLCJoZWFkaW5nIjoiU2V1IGRpbmhlaXJvLCBjb20gY2xhcmV6YS4iLCJjbGlwIjoiY2lyY2xlKDMxLjM0MDIxMTg2ODI4NjEzM3B4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo4Mi4zMDAwMDAwMTE5MjA5MywicGhhc2UiOiJjb3ZlcmluZyIsInBhdGgiOiIvcGFpbmVsIiwiaGVhZGluZyI6IlNldSBkaW5oZWlybywgY29tIGNsYXJlemEuIiwiY2xpcCI6ImNpcmNsZSg3MzMuMzM2NjY5OTIxODc1cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjEyMi41LCJwaGFzZSI6ImNvdmVyaW5nIiwicGF0aCI6Ii9wYWluZWwiLCJoZWFkaW5nIjoiU2V1IGRpbmhlaXJvLCBjb20gY2xhcmV6YS4iLCJjbGlwIjoiY2lyY2xlKDEyMTYuODA0MDc3MTQ4NDM3NXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoxNDQuOTAwMDAwMDA1OTYwNDYsInBoYXNlIjoiY292ZXJpbmciLCJwYXRoIjoiL3BhaW5lbCIsImhlYWRpbmciOiJTZXUgZGluaGVpcm8sIGNvbSBjbGFyZXphLiIsImNsaXAiOiJjaXJjbGUoMTM3My43NjAyNTM5MDYyNXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoxNjYuNTk5OTk5OTk0MDM5NTQsInBoYXNlIjoiY292ZXJpbmciLCJwYXRoIjoiL3BhaW5lbCIsImhlYWRpbmciOiJTZXUgZGluaGVpcm8sIGNvbSBjbGFyZXphLiIsImNsaXAiOiJjaXJjbGUoMTQ3NS4wNzgzNjkxNDA2MjVweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MjAxLjkwMDAwMDAwNTk2MDQ2LCJwaGFzZSI6ImNvdmVyaW5nIiwicGF0aCI6Ii9wYWluZWwiLCJoZWFkaW5nIjoiU2V1IGRpbmhlaXJvLCBjb20gY2xhcmV6YS4iLCJjbGlwIjoiY2lyY2xlKDE1NTYuNTc0MzQwODIwMzEyNXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoyMjQuNSwicGhhc2UiOiJjb3ZlcmluZyIsInBhdGgiOiIvcGFpbmVsIiwiaGVhZGluZyI6IlNldSBkaW5oZWlybywgY29tIGNsYXJlemEuIiwiY2xpcCI6ImNpcmNsZSgxNTY4Ljk3ODE0OTQxNDA2MjVweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MjUxLjA5OTk5OTk5NDAzOTU0LCJwaGFzZSI6ImNvdmVyaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiU2V1IGRpbmhlaXJvLCBjb20gY2xhcmV6YS4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MjkyLjU5OTk5OTk5NDAzOTU0LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOiJTZXUgZGluaGVpcm8sIGNvbSBjbGFyZXphLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjozNTEuMDk5OTk5OTk0MDM5NTQsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjM3Ni4zMDAwMDAwMTE5MjA5MywicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NDAzLjE5OTk5OTk4ODA3OTA3LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo0MDUuMDk5OTk5OTk0MDM5NTQsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjQyMy40MDAwMDAwMDU5NjA0NiwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NDQ1LjQwMDAwMDAwNTk2MDQ2LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo0NjMuNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NDkwLjQwMDAwMDAwNTk2MDQ2LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo1MDUuMDk5OTk5OTk0MDM5NTQsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjUyOC44MDAwMDAwMTE5MjA5LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo1NDIuMDk5OTk5OTk0MDM5NSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NTU1LjY5OTk5OTk4ODA3OTEsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjU3My40MDAwMDAwMDU5NjA1LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo1OTkuODAwMDAwMDExOTIwOSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NjIzLjQwMDAwMDAwNTk2MDUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjYzOC41LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo2NTYuMzAwMDAwMDExOTIwOSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NjgxLjE5OTk5OTk4ODA3OTEsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjcwNC41OTk5OTk5OTQwMzk1LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo3MjMuOTAwMDAwMDA1OTYwNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6NzM5LjQwMDAwMDAwNTk2MDUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjc1NC44MDAwMDAwMTE5MjA5LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo3NzEuNDAwMDAwMDA1OTYwNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6Nzg4LjUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjgxMC4xOTk5OTk5ODgwNzkxLCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo4MjMuOTAwMDAwMDA1OTYwNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6ODM4LjMwMDAwMDAxMTkyMDksInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjg1Ni45MDAwMDAwMDU5NjA1LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo4NzEuNjk5OTk5OTg4MDc5MSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6ODg4LjU5OTk5OTk5NDAzOTUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjkwNS41LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo5MjEuNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6OTM4LjA5OTk5OTk5NDAzOTUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjk1NC42OTk5OTk5ODgwNzkxLCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjo5NzIsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjk4OCwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MTAwNC41OTk5OTk5OTQwMzk1LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoxMDIyLCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoxMDM4LjMwMDAwMDAxMTkyMSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MTA1NS4wOTk5OTk5OTQwMzk1LCJwaGFzZSI6ImNvdmVyZWQiLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOm51bGwsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MH0seyJ0aW1lIjoxMDcxLjkwMDAwMDAwNTk2MDUsInBoYXNlIjoiY292ZXJlZCIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6bnVsbCwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjowfSx7InRpbWUiOjEwODguNSwicGhhc2UiOiJjb3ZlcmVkIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjpudWxsLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MTEzOS4wOTk5OTk5OTQwMzk1LCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjB9LHsidGltZSI6MTIwMi4xOTk5OTk5ODgwNzksInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MTAuODk3NTE3MjA0Mjg0NjY4fSx7InRpbWUiOjEyMjksInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MTY3LjUzMTQ0ODM2NDI1Nzh9LHsidGltZSI6MTI1Ni4zMDAwMDAwMTE5MjEsInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MzIxLjM2ODA3MjUwOTc2NTZ9LHsidGltZSI6MTI3OS4wOTk5OTk5OTQwMzk1LCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjUzNi4yMjk3OTczNjMyODEyfSx7InRpbWUiOjEzMDMuMzAwMDAwMDExOTIxLCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjc0My40NzA1ODEwNTQ2ODc1fSx7InRpbWUiOjEzMjcsInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6OTQ1LjQ3NjAxMzE4MzU5Mzh9LHsidGltZSI6MTM1MC4wOTk5OTk5OTQwMzk1LCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjExMTIuMzk5OTAyMzQzNzV9LHsidGltZSI6MTM3NSwicGhhc2UiOiJyZXZlYWxpbmciLCJwYXRoIjoiL2NvbnRhcyIsImhlYWRpbmciOiJVbSBsdWdhciBwYXJhIGNhZGEgcGxhbm8uIiwiY2xpcCI6ImNpcmNsZSgxNTY5cHggYXQgMzBweCAyODlweCkiLCJob2xlIjoxMjM4LjExNDEzNTc0MjE4NzV9LHsidGltZSI6MTM5OS42OTk5OTk5ODgwNzksInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MTM0Mi43MzgwMzcxMDkzNzV9LHsidGltZSI6MTQyMy41OTk5OTk5OTQwMzk1LCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjE0MTguMTYwODg4NjcxODc1fSx7InRpbWUiOjE0NDguODAwMDAwMDExOTIxLCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjE0NzYuMTcwNzc2MzY3MTg3NX0seyJ0aW1lIjoxNDczLCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjE1MTcuNDE1MTYxMTMyODEyNX0seyJ0aW1lIjoxNDk3LjU5OTk5OTk5NDAzOTUsInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MTU0NC4xODcxMzM3ODkwNjI1fSx7InRpbWUiOjE1MjIuMzAwMDAwMDExOTIxLCJwaGFzZSI6InJldmVhbGluZyIsInBhdGgiOiIvY29udGFzIiwiaGVhZGluZyI6IlVtIGx1Z2FyIHBhcmEgY2FkYSBwbGFuby4iLCJjbGlwIjoiY2lyY2xlKDE1NjlweCBhdCAzMHB4IDI4OXB4KSIsImhvbGUiOjE1NjAuNTQzMzM0OTYwOTM3NX0seyJ0aW1lIjoxNTQ1LjU5OTk5OTk5NDAzOTUsInBoYXNlIjoicmV2ZWFsaW5nIiwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiJjaXJjbGUoMTU2OXB4IGF0IDMwcHggMjg5cHgpIiwiaG9sZSI6MTU2OC4yNTEzNDI3NzM0Mzc1fSx7InRpbWUiOjE1OTYuNSwicGF0aCI6Ii9jb250YXMiLCJoZWFkaW5nIjoiVW0gbHVnYXIgcGFyYSBjYWRhIHBsYW5vLiIsImNsaXAiOiIiLCJob2xlIjowfV0="
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-expressiv-bf52a-usa-azul-profundo-no-escuro/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "472f259022e25a651642-fcd292ad941cdf2a37a7",
+              "file": "motion.spec.ts",
+              "line": 218,
+              "column": 3
+            },
+            {
+              "title": "mantém a transição SVG quando WebGL está indisponível",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2173,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:41.428Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-expressiv-25fa2-ndo-WebGL-está-indisponível/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "472f259022e25a651642-1175355782d6853fdbd5",
+              "file": "motion.spec.ts",
+              "line": 355,
+              "column": 3
+            },
+            {
+              "title": "perda do contexto gráfico recupera sem travar ou perder filtros",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2338,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:43.623Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/test-results/motion-movimento-expressiv-d769f-em-travar-ou-perder-filtros/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "472f259022e25a651642-962c6f6a7c4f0f54d487",
+              "file": "motion.spec.ts",
+              "line": 385,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "viewport.spec.ts",
+      "file": "viewport.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "o painel acompanha janelas 20:9, 21:9 e larguras intermediárias",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1696,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:47.143Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "24876809b35b098bf297-22467e52c1a82f2327b1",
+          "file": "viewport.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "o conteúdo rola dentro do quadro e restaura a posição ao voltar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1246,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T11:59:48.941Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "24876809b35b098bf297-e7a2fd08807ab9f22036",
+          "file": "viewport.spec.ts",
+          "line": 92,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "menu com movimento e barras nativas",
+          "file": "viewport.spec.ts",
+          "line": 154,
+          "column": 6,
+          "specs": [
+            {
+              "title": "recolher e expandir não cria uma barra horizontal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2162,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T11:59:50.204Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "24876809b35b098bf297-54be2a0690b57040f7e3",
+              "file": "viewport.spec.ts",
+              "line": 156,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T11:58:56.927Z",
+    "duration": 55513.115,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

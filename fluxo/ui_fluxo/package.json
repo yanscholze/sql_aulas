@@ -1,0 +1,54 @@
+{
+  "name": "fluxo-interface",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/core"
+  ],
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "testar": "npm run build && vite preview --host 127.0.0.1 --port 5174",
+    "profile:motion": "node scripts/profile-motion.mjs",
+    "test": "vitest run",
+    "test:core": "node --experimental-strip-types --test \"packages/core/**/*.test.ts\"",
+    "test:e2e": "playwright test",
+    "lint": "eslint src tests",
+    "format": "prettier --write src tests"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "8.5.1",
+    "motion": "14.12.0",
+    "radix-ui": "1.8.1",
+    "@tanstack/react-query": "5.107.1",
+    "idb": "8.0.4",
+    "lucide-react": "1.72.0",
+    "@fluxo/core": "file:packages/core"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/node": "22.19.19",
+    "typescript": "5.9.3",
+    "vite": "8.3.8",
+    "@vitejs/plugin-react": "6.3.0",
+    "tailwindcss": "4.3.5",
+    "@tailwindcss/vite": "4.3.5",
+    "vitest": "5.1.0",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/dom": "10.4.2",
+    "@playwright/test": "1.65.0",
+    "@axe-core/playwright": "4.14.0",
+    "fake-indexeddb": "6.2.4",
+    "eslint": "10.14.0",
+    "typescript-eslint": "8.72.2",
+    "prettier": "3.10.0"
+  }
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "name": "light-replay-covering-25",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.25,
+    "timeMs": 55,
+    "easedProgress": 0.24001534787201179,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 343.6205661484958,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 343.6205661484958,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-25-approved-svg.png"
+  },
+  {
+    "name": "light-replay-covering-50",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.5,
+    "timeMs": 110,
+    "easedProgress": 0.730554561963949,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1000.9431130316916,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1000.9431130316916,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-50-approved-svg.png"
+  },
+  {
+    "name": "light-replay-covering-75",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.75,
+    "timeMs": 165,
+    "easedProgress": 0.9481117983097602,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1292.4698097350788,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1292.4698097350788,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-covering-75-approved-svg.png"
+  },
+  {
+    "name": "light-replay-revealing-25",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.25,
+    "timeMs": 105,
+    "easedProgress": 0.15993014398434252,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 217.8248561066745
+    },
+    "boundaryRadius": 217.8248561066745,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-25-approved-svg.png"
+  },
+  {
+    "name": "light-replay-revealing-50",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.5,
+    "timeMs": 210,
+    "easedProgress": 0.6929377578585236,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 943.7812262033092
+    },
+    "boundaryRadius": 943.7812262033092,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-50-approved-svg.png"
+  },
+  {
+    "name": "light-replay-revealing-75",
+    "theme": "light",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.75,
+    "timeMs": 315,
+    "easedProgress": 0.9456996219561566,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 1288.0428851042855
+    },
+    "boundaryRadius": 1288.0428851042855,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-replay-revealing-75-approved-svg.png"
+  },
+  {
+    "name": "light-contas-covering-25",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.25,
+    "timeMs": 55,
+    "easedProgress": 0.24001534787201179,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 376.2626534590894,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 376.2626534590894,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-25-approved-svg.png"
+  },
+  {
+    "name": "light-contas-covering-50",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.5,
+    "timeMs": 110,
+    "easedProgress": 0.730554561963949,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1100.2985334587886,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1100.2985334587886,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-50-approved-svg.png"
+  },
+  {
+    "name": "light-contas-covering-75",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.75,
+    "timeMs": 165,
+    "easedProgress": 0.9481117983097602,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1421.4130143052062,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1421.4130143052062,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-covering-75-approved-svg.png"
+  },
+  {
+    "name": "light-contas-revealing-25",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.25,
+    "timeMs": 105,
+    "easedProgress": 0.15993014398434252,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 239.5753556885451
+    },
+    "boundaryRadius": 239.5753556885451,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-25-approved-svg.png"
+  },
+  {
+    "name": "light-contas-revealing-50",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.5,
+    "timeMs": 210,
+    "easedProgress": 0.6929377578585236,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 1038.0207612720683
+    },
+    "boundaryRadius": 1038.0207612720683,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-50-approved-svg.png"
+  },
+  {
+    "name": "light-contas-revealing-75",
+    "theme": "light",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.75,
+    "timeMs": 315,
+    "easedProgress": 0.9456996219561566,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 1416.6580336903226
+    },
+    "boundaryRadius": 1416.6580336903226,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/light-contas-revealing-75-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-covering-25",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.25,
+    "timeMs": 55,
+    "easedProgress": 0.24001534787201179,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 343.6205661484958,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 343.6205661484958,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-25-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-covering-50",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.5,
+    "timeMs": 110,
+    "easedProgress": 0.730554561963949,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1000.9431130316916,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1000.9431130316916,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-50-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-covering-75",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "covering",
+    "fraction": 0.75,
+    "timeMs": 165,
+    "easedProgress": 0.9481117983097602,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1292.4698097350788,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1292.4698097350788,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-covering-75-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-revealing-25",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.25,
+    "timeMs": 105,
+    "easedProgress": 0.15993014398434252,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 217.8248561066745
+    },
+    "boundaryRadius": 217.8248561066745,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-25-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-revealing-50",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.5,
+    "timeMs": 210,
+    "easedProgress": 0.6929377578585236,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 943.7812262033092
+    },
+    "boundaryRadius": 943.7812262033092,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-50-approved-svg.png"
+  },
+  {
+    "name": "dark-replay-revealing-75",
+    "theme": "dark",
+    "origin": "replay",
+    "phase": "revealing",
+    "fraction": 0.75,
+    "timeMs": 315,
+    "easedProgress": 0.9456996219561566,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 1005.0078125,
+        "y": 30
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1362
+    },
+    "radii": {
+      "outerRadius": 1362,
+      "holeRadius": 1288.0428851042855
+    },
+    "boundaryRadius": 1288.0428851042855,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-replay-revealing-75-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-covering-25",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.25,
+    "timeMs": 55,
+    "easedProgress": 0.24001534787201179,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 376.2626534590894,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 376.2626534590894,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-25-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-covering-50",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.5,
+    "timeMs": 110,
+    "easedProgress": 0.730554561963949,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1100.2985334587886,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1100.2985334587886,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-50-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-covering-75",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "covering",
+    "fraction": 0.75,
+    "timeMs": 165,
+    "easedProgress": 0.9481117983097602,
+    "timing": {
+      "durationMs": 220,
+      "ease": [
+        0.35,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1421.4130143052062,
+      "holeRadius": 0
+    },
+    "boundaryRadius": 1421.4130143052062,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-covering-75-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-revealing-25",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.25,
+    "timeMs": 105,
+    "easedProgress": 0.15993014398434252,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 239.5753556885451
+    },
+    "boundaryRadius": 239.5753556885451,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-25-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-25-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-revealing-50",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.5,
+    "timeMs": 210,
+    "easedProgress": 0.6929377578585236,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 1038.0207612720683
+    },
+    "boundaryRadius": 1038.0207612720683,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-50-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-50-approved-svg.png"
+  },
+  {
+    "name": "dark-contas-revealing-75",
+    "theme": "dark",
+    "origin": "contas",
+    "phase": "revealing",
+    "fraction": 0.75,
+    "timeMs": 315,
+    "easedProgress": 0.9456996219561566,
+    "timing": {
+      "durationMs": 420,
+      "ease": [
+        0.45,
+        0,
+        0.3,
+        1
+      ]
+    },
+    "geometry": {
+      "start": {
+        "x": 103,
+        "y": 300.5
+      },
+      "width": 1440,
+      "height": 900,
+      "radius": 1498
+    },
+    "radii": {
+      "outerRadius": 1498,
+      "holeRadius": 1416.6580336903226
+    },
+    "boundaryRadius": 1416.6580336903226,
+    "background": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-app-background.png",
+    "actual": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-75-canvas.png",
+    "expected": "/home/yanscholze/Documentos/UI_Fluxo/ui_fluxo/outputs/performance/2026-11-15-visual/dark-contas-revealing-75-approved-svg.png"
+  }
+]

@@ -1,0 +1,378 @@
+{
+  "summary": {
+    "label": "baseline-trace",
+    "baseURL": "http://127.0.0.1:4174",
+    "experiment": "normal",
+    "trials": 1,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "browser": "158.0.8127.18",
+    "hardware": {
+      "cpu": "13th Gen Intel(R) Core(TM) i5-1335U",
+      "cores": 12,
+      "gpu": [
+        {
+          "vendorId": 65535,
+          "deviceId": 65535,
+          "vendorString": "Google Inc. (Google)",
+          "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+          "driverVendor": "SwANGLE",
+          "driverVersion": "5.0.0"
+        }
+      ],
+      "featureStatus": {
+        "2d_canvas": "unavailable_software",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "disabled_software",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "disabled_off",
+        "rasterization": "disabled_software",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "disabled_software",
+        "video_encode": "disabled_software",
+        "vulkan": "disabled_off",
+        "webgl": "unavailable_software",
+        "webgpu": "unavailable_software",
+        "webgpu_on_vk_via_gl_interop": "disabled_off",
+        "webnn": "unavailable_software"
+      }
+    },
+    "animationFrames": 28,
+    "frameMeanMs": 24.998857142857137,
+    "frameP95Ms": 49.90000000000009,
+    "framesOver25ms": 13,
+    "longTasks": 0,
+    "longTaskTotalMs": 0,
+    "metrics": {
+      "TaskDuration": 0.627575,
+      "ScriptDuration": 0.151789,
+      "LayoutDuration": 0.056925,
+      "RecalcStyleDuration": 0.120482,
+      "LayoutCount": 68,
+      "RecalcStyleCount": 90
+    },
+    "errors": []
+  },
+  "results": [
+    {
+      "frames": [
+        {
+          "time": 13.832000002980294,
+          "phase": "covering"
+        },
+        {
+          "time": 13.90000000298005,
+          "phase": "covering"
+        },
+        {
+          "time": 30.600000002980323,
+          "phase": "covering"
+        },
+        {
+          "time": 47.20000000298023,
+          "phase": "covering"
+        },
+        {
+          "time": 63.90000000298005,
+          "phase": "covering"
+        },
+        {
+          "time": 80.60000000298032,
+          "phase": "covering"
+        },
+        {
+          "time": 97.20000000298023,
+          "phase": "covering"
+        },
+        {
+          "time": 130.5000000029804,
+          "phase": "covering"
+        },
+        {
+          "time": 163.80000000298014,
+          "phase": "covering"
+        },
+        {
+          "time": 197.20000000298023,
+          "phase": "covering"
+        },
+        {
+          "time": 213.90000000298005,
+          "phase": "covering"
+        },
+        {
+          "time": 230.60000000298032,
+          "phase": "covering"
+        },
+        {
+          "time": 247.20000000298023,
+          "phase": "revealing"
+        },
+        {
+          "time": 280.5000000029804,
+          "phase": "revealing"
+        },
+        {
+          "time": 313.90000000298005,
+          "phase": "revealing"
+        },
+        {
+          "time": 347.20000000298023,
+          "phase": "revealing"
+        },
+        {
+          "time": 380.5000000029804,
+          "phase": "revealing"
+        },
+        {
+          "time": 397.20000000298023,
+          "phase": "revealing"
+        },
+        {
+          "time": 413.90000000298005,
+          "phase": "revealing"
+        },
+        {
+          "time": 430.5000000029804,
+          "phase": "revealing"
+        },
+        {
+          "time": 463.90000000298005,
+          "phase": "revealing"
+        },
+        {
+          "time": 480.5000000029804,
+          "phase": "revealing"
+        },
+        {
+          "time": 497.20000000298023,
+          "phase": "revealing"
+        },
+        {
+          "time": 547.1000000029803,
+          "phase": "revealing"
+        },
+        {
+          "time": 563.8000000029801,
+          "phase": "revealing"
+        },
+        {
+          "time": 597.2000000029802,
+          "phase": "revealing"
+        },
+        {
+          "time": 630.5000000029804,
+          "phase": "revealing"
+        },
+        {
+          "time": 663.8000000029801,
+          "phase": "revealing"
+        },
+        {
+          "time": 713.8000000029801,
+          "phase": null
+        },
+        {
+          "time": 747.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 797.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 830.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 847.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 897.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 947.1000000029803,
+          "phase": null
+        },
+        {
+          "time": 997.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1030.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1063.8000000029801,
+          "phase": null
+        },
+        {
+          "time": 1097.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1113.8000000029801,
+          "phase": null
+        },
+        {
+          "time": 1130.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1147.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1163.8000000029801,
+          "phase": null
+        },
+        {
+          "time": 1180.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1197.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1213.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1230.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1247.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1263.90000000298,
+          "phase": null
+        },
+        {
+          "time": 1280.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1297.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1313.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1330.40000000298,
+          "phase": null
+        },
+        {
+          "time": 1347.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1363.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1380.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1397.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1413.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1430.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1447.2000000029802,
+          "phase": null
+        },
+        {
+          "time": 1463.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1480.40000000298,
+          "phase": null
+        },
+        {
+          "time": 1497.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1513.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1530.40000000298,
+          "phase": null
+        },
+        {
+          "time": 1547.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1563.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1580.40000000298,
+          "phase": null
+        },
+        {
+          "time": 1597.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1613.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1630.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1647.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1663.8000000029806,
+          "phase": null
+        },
+        {
+          "time": 1680.5000000029804,
+          "phase": null
+        },
+        {
+          "time": 1697.1000000029799,
+          "phase": null
+        },
+        {
+          "time": 1713.8000000029806,
+          "phase": null
+        }
+      ],
+      "longTasks": [],
+      "metrics": {
+        "TaskDuration": 0.627575,
+        "ScriptDuration": 0.151789,
+        "LayoutDuration": 0.056925,
+        "RecalcStyleDuration": 0.120482,
+        "LayoutCount": 68,
+        "RecalcStyleCount": 90
+      }
+    }
+  ]
+}
